@@ -125,7 +125,6 @@ const ProfilePage = () => {
                             </Link>
                             <div className="flex flex-col">
                                 <p className="font-bold text-lg">{data?.user?.fullName}</p>
-                                <span className="text-sm text-slate-500">{data?.user?.posts?.length || 0} posts</span>
                             </div>
                         </div>
                         {/* COVER IMG */}
