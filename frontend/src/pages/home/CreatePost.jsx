@@ -60,7 +60,7 @@ const CreatePost = () => {
     };
 
     if (isLoading) return <div>Loading...</div>;
-    if (isError) return <div>Failed to load user data</div>;
+    if (isError) return <div>Loading...</div>;
 
     return (
         <div className='flex p-4 items-start gap-4 border-b border-gray-700'>
