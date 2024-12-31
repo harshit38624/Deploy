@@ -13,7 +13,7 @@ const CreatePost = () => {
     const { data: authUser, isLoading, isError , error} = useQuery({
         queryKey: ["authUser"],
         queryFn: async () => {
-            const res = await fetch("/api/authUser");
+            const res = await fetch("/api/auth/me");
             return res.json();
         },
     });
